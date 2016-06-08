@@ -1,0 +1,153 @@
+\documentclass[12pt,a4paper]{moderncv} 
+
+% moderncv themes
+\moderncvtheme[green]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Christian Sebastian}
+\familyname{Russo}
+%\title{Curriculum Vitae}               % optional, remove the line if not wanted
+\address{}{}    % optional, remove the line if not wanted
+\phone{4844-4479}
+\mobile{15-4163-9169}                    % optional, remove the line if not wanted
+%\phone{phone (optional)}                      % optional, remove the line if not wanted
+%\fax{fax (optional)}                          % optional, remove the line if not wanted
+\email{christian.russo8@gmail.com}                      % optional, remove the line if not wanted
+%\homepage{www.com.ar}                % optional, remove the line if not wanted
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+\photo[110pt]{christian-russo.jpg}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+\quote{Curriculum Vitae}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+\hyphenation{privado}
+\begin{document}
+\maketitle
+
+\section{Datos Personales}
+\cventry{Nombre completo}{Christian Sebastian Russo}{}{}{}{}
+\cventry{Dirección}{Jose Maria Bosch 951}{Villa Bosch - Tres de Febrero}{Buenos Aires, Argentina}{}{}
+\cventry{Fecha de nacimiento}{14 de Enero de 1991}{}{}{}{}
+\cventry{Nacionalidad}{Argentina}{}{}{}{}
+\cventry{Estado civil}{Soltero}{}{}{}{}
+\cventry{Correo electrónico}{christian.russo8@gmail.com}{}{}{}{}
+\cventry{Teléfono}{4844-4479}{}{}{}{}
+\cventry{Celular}{15-4163-9169}{}{}{}{}
+
+\section{Educación Primaria y Secundaria}
+\cventry{Año de egreso: 2008}{Bachiller en Produccion de Bienes y Servicios}{Instituto Leonardo Murialdo}{Villa Bosch, Buenos Aires}{}{}{}  % arguments 3 to 6 can be left empty
+\cventry{Año de egreso: 2008}{Tecnico en Electronica}{Instituto Leonardo Murialdo}{Villa Bosch, Buenos Aires}{}{}{} 
+
+\section{Estudios en curso}
+\cventry{Año de ingreso: 2009}{Licenciatura en Ciencias de la Computación}{Facultad de Ciencias Exactas y Naturales Universidad de Buenos Aires (UBA)}{Ciudad Autónoma de Buenos Aires}{o}{Fecha de egreso estimada: Junio 2015} 
+\cventry{}{Materias Completas: }{CBC, Analisis II, Algebra I, Probabilidad y Estadistica, Algoritmos y Estructuras de datos I, Algoritmos y Estructuras de datos II, Algoritmos y Estructuras de datos III y Organizacion del Computador I, Dise\~no de Sistemas con FPGA, Metodos Numericos, Organizaci\'on del Computador II}{}{}{} 
+\cventry{}{Materias en curso: }{Teoria de las comunicaciones, Ingenieria de software I}{}{}{} 
+
+
+
+\section{Participaci\'on}
+\subsection{Investigaci\'on}
+\cventry{Actualidad}{Lego NXT Mindstorms - Label Transition System - Modal Transition System}{UBA - FCEN }{LaFHIS}{http://lafhis.dc.uba.ar/}{}
+\subsection{Eventos}
+\cventry{2013}{FACAS 2013 - Fundamentos para el An\'alisis y Construcci\'on Autom\'atica de Software }{UBA - FCEN}{LaFHIS}{http://lafhis.dc.uba.ar/}{}
+\cventry{2014}{FACAS 2014 - Fundamentos para el An\'alisis y Construcci\'on Autom\'atica de Software }{UBA - FCEN}{LaFHIS}{http://lafhis.dc.uba.ar/}{}
+\cventry{2012}{SdC 2012 - Semana de la Computaci\'on}{UBA - FCEN}{}{}{}
+\cventry{2013}{SdC 2013 - Semana de la Computaci\'on}{UBA - FCEN}{}{}{}
+\cventry{2013}{Exactas en la Feria del Libro}{UBA - FCEN}{}{}{}
+\cventry{2013}{Stand Departamento de Computaci\'on UBA en Tecnopolis 2013}{UBA - FCEN}{}{}{}
+\cventry{2012}{La noche de los Museos}{UBA - FCEN}{}{}{}
+
+
+\section{Cursos}
+\subsection{Programacion JAVA}
+\cventry{2009}{Java programming SL210 y SL275}{Universidad Tecnologica Nacional}{UTN}{}{}
+\cventry{2010}{Java Aplicaciones Web JEE }{Universidad Tecnologica Nacional}{UTN}{}{}
+\cventry{2011}{Java Standard  }{Educacion IT}{}{}{}
+\cventry{2012}{Java Hibernate }{Educacion IT}{}{}{}
+\cventry{2012}{Java Mobile (Programacion para celulares)}{Educacion IT}{}{}{}
+
+\subsection{Programacion PHP y MySQL}
+\cventry{2010}{Introduccion a MySQL}{Universidad Tecnologica Nacional}{UTN}{}{}
+\cventry{2011}{PHP y MySQL Server}{Educacion IT}{}{}{}
+\cventry{2012}{PHP  Programacion Orientada a Objetos}{Educacion IT}{}{}{}
+\cventry{2012}{Seminario de Programacion Web}{Educacion IT}{}{}{}
+
+
+\subsection{Diseno Web} 
+\cventry{2012}{CSS (Fundamentos y Divs)}{Educacion IT}{}{}{}
+
+\subsection{Otros} 
+\cventry{2011}{Introduccion al Paradigmas de Objetos}{Educacion IT}{}{}{}
+\cventry{2012}{Curso PostgreSQL Nivel Inicial}{SIU}{}{}{}
+\cventry{2013}{Introduccion a Scrum}{Keeler}{http://www.kleer.la}{}{}
+\cventry{2013}{Analisis, estimacion y planificacion con Scrum}{Keeler}{http://www.kleer.la}{}{}
+\section{Idiomas}
+\cventry{Castellano}{Oral y escrito}{}{}{}{}
+\cventry{Inglés}{Lectura: Nivel Avanzado ; Escritura: Nivel Avanzado ; Oral: Nivel Intermedio}{Certificado Oficial reconocido por SNEP}{Cultural Inglesa General San Martin }{CISM}{}{}
+
+\section{Experiencias Laborales}
+\cventry{Diciembre 2008 -- Marzo 2008}{Data Entry}{Clamaco S.A.}{Referencia: Jose Russo (15-4997-0286)}{}{}
+\cventry{Noviembre 2011 -- Mayo 2012}{Programador Web (PHP, OOP, MySQL, CSS, HTML)}{Cloudbits S.A.}{http://www.cloudbits.com.ar/}{Posicion Part-Time Home Office. Desarrollo de paginas webs con un framework propio de la empresa. Utilizando programacion orienta a objetos (POO)}{}
+\cventry{Mayo 2012 -- Junio 2012}{Programador Web, Programador PHP, Programador TOBA - SIU GUARANI3}{Universidad de San Martin - UNSAM}{http://www.unsam.edu.ar/}{Programador PHP encargado del sistema de inscripciones de la universidad. Manejo de herramienta de versionado y el framework TOBA de PHP}{}
+\cventry{Junio 2012 -- Junio 2014}{Programador Web, Programador PHP, Programador TOBA - SIU GUARANI3}{Universidad de Buenos Aires, Facultad de Ciencias Exactas y Naturales - FCEN}{http://www.exactas.uba.ar/}{Programador PHP encargado del sistema de administracion de la facultad y de inscripciones. Framework TOBA de PHP. Grupos grandes de trabajo aplicando metodologias agiles y control de versionado.}{}
+
+\cventry{Agosto 2014 - Enero 2015}{Programador Java}{Moveo}{http://www.moveo.uba.ar/}{Desarrollo de aplicaciones web y de escritorio con Java, uso de Hibernate y Maven. Participacion en proyectos con amplios miembros en el equipo. Utilizamos tecnicas de scrum y agiles}{}
+
+
+\cventry{Febrero 2015 - Presente}{Programador Java, Programador PHP}{SISA - Soluciones Integrales}{http://www.sisa.com.ar}{Desarrollo de sistema web para administracion de gymnasios, especialmente para Megatlon. Utilizando Java y el framework GWT. Utilizamos herramientas como Hibernate y Maven. Control de versiones. Proyectos grandes y a largo plazo.}{}
+
+\newpage
+\section{Conocimientos en Informática}
+\cventry{Sistemas operativos}{Linux (Avanzado), Windows (Avanzado)}{}{}{}{}
+\cventry{Programas y herramientas varias}{Paquete Microsoft Office (Word, Excel, PowerPoint), SVN, GIT, VirtualBox, LaTex}{}{}{}{}
+\cventry{Entornos de desarrollo}{Netbeans (IDE), Eclipse, CodeBlocks, WinHugs}{}{}{}{}
+\cventry{Lenguajes de programación}{C, C++, Assembler, PLC (Logo, Zelio), Haskell, Python, HTML, PHP, PHP Cake, TOBA (Consorcio SIU - PHP Framework), JAVA, Spring Roo (Java Framework, CSS)}{}{}{}{}
+\cventry{Base de datos}{SQL, MySQL, PostgreSQL, Oracle}{}{}{}{}
+\cventry{Otros}{Armado y reparación de PC}{}{}{}{}
+
+
+
+
+%\section{Información Extra}
+%\begin{itemize}
+%\item Buena predisposición al trabajo en equipo y al aprendizaje de nuevos lenguajes.
+%\end{itemize}
+
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+%\section{Extra 2}
+%\cvlistdoubleitem{Item 1}{Item 4}
+%\cvlistdoubleitem{Item 2}{Item 5 \cite{book1}}
+%\cvlistdoubleitem{Item 3}{}
+
+% Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}       % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}   % 'publications' is the name of a BibTeX file
+
+\end{document}
+
+
+%% end of file `template_en.tex'.
